@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 4 Forms</title>
+    </head>
+    <body>
+        <!--form tag tells where your form starts and ends
+        POST means data in form is submitted on the back end
+        -->
+        <form action="mailto:rhsrivas@syr.edu" method="POST">
+            <!--value of the for attribute in label must match id attribute in input-->
+            <label for="fullname">Full Name: </label>
+            <input type="text" id="fullname" name="fname">
+            <br><br>
+            <label>Favorite color: <input type="text" name="favcolor"></label>
+            <br><br>
+            <!--textarea is a lot of writing-->
+            <label>Complaints: 
+                <textarea name="complaints">Write your complaints here.</textarea>
+            </label>
+            <br>
+            <p>How angry are you?</p>
+                <label><input type="radio" name="level" value="very angry">Very Angry</label>
+                <br>
+                <label><input type="radio" name="level" value="not very angry">Not Very Angry</label>
+            <br>
+            <p>How can we contact you?
+                <select name="contact">
+                    <option>Phone #</option>
+                    <option>Email</option>
+                    <option>Snail Mail</option>
+                </select>
+            </p>
+            <p>Which day(s) are you free to discuss the issue?</p>
+            <ul>  
+                <li><input type="checkbox" name="day" value="monday"> Monday</li>  
+                <li><input type="checkbox" name="day" value="tuesday"> Tuesdays</li>   
+                <li><input type="checkbox" name="day" value="wednesday"> Wednesday</li>   
+                <li><input type="checkbox" name="day" value="thursday"> Thursday</li>
+                <li><input type="checkbox" name="day" value="friday"> Friday</li>
+            </ul>
+            <input type="submit" value="Send my complaint">
+        </form>
+    </body>
+</html>

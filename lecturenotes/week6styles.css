@@ -1,0 +1,19 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:skyblue;
+    font-size: 150%;
+    /* we are selecting all the paragraphs, changing font, color, and size;
+    also this is how to write a comment in CSS */
+}
+h1 {
+    color: slateblue;
+    letter-spacing: 1.1em;
+    word-spacing: 1.1em;
+    /* you can look up all different kinds of text effects in w3schools */
+}
+p, h1 {
+    font-family: fantasy;
+    color:tomato;
+}
+p a {color: orange}
+/* this only changes links inside p tags -- descendant selector */

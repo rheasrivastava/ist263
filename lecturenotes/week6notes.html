@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 6 Notes</title>
+        <style>
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                color:skyblue;
+                font-size: 150%;
+                /* we are selecting all the paragraphs, changing font, color, and size;
+                also this is how to write a comment in CSS */
+            }
+            h1 {
+                color: slateblue;
+                letter-spacing: 1.1em;
+                word-spacing: 1.1em;
+                /* you can look up all different kinds of text effects in w3schools */
+            }
+            p, h1 {
+                font-family: fantasy;
+                color:tomato;
+            }
+            p a {color: orange}
+            /* this only changes links inside p tags -- descendant selector */
+        </style>
+        <!--This is an embedded CSS style sheet; it MUST be in the head tag!-->
+    </head>
+
+    <body>
+        <p>Hello World!</p>
+        <h1>Main Heading</h1>
+        <p>A cool university is <a href="https://www.syracuse.edu/">Syracuse University</a></p>
+        <h1><a href="https://www.syracuse.edu/academics/">Syracuse Academics</a></h1>
+    </body>
+</html>
