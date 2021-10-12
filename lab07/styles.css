@@ -2,8 +2,11 @@ body {
     color: #ffffff; 
     background-color: #000000;
 }
-a {
+a:link {
     color: #ff7878
+}
+a:visited {
+    color: #a78075;
 }
 /* the links on the contact page do not change color with a:link */
 h1, h2, h3 {
@@ -20,6 +23,9 @@ nav a {
 }
 nav a:hover {
     background-color: #ff7878;
+}
+nav a:visited {
+    color: #7d5a50;
 }
 .banner {
     display: block;
