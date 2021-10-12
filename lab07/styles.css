@@ -1,0 +1,32 @@
+body {
+    color: #ffffff; 
+    background-color: #000000;
+}
+a:link {
+    color: #ff7878
+}
+h1, h2, h3 {
+    color: #ffd8cc;
+}
+nav {
+    background-color: #ffd8cc;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #7d5a50;
+}
+nav a:hover {
+    background-color: #ff7878;
+}
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.center {
+    text-align: center;
+}
+
