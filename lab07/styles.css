@@ -2,9 +2,10 @@ body {
     color: #ffffff; 
     background-color: #000000;
 }
-a:link {
+a {
     color: #ff7878
 }
+/* the links on the contact page do not change color with a:link */
 h1, h2, h3 {
     color: #ffd8cc;
 }
@@ -30,3 +31,12 @@ nav a:hover {
     text-align: center;
 }
 
+ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-left: inherit;
+}
+.evenrow {
+    background-color: white;
+    color:  black;
+}
