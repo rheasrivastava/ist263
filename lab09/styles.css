@@ -1,0 +1,98 @@
+body {
+    color: #ffffff; 
+    background-color: #000000;
+}
+a:link {
+    color: #ff7878
+}
+a:visited {
+    color: #a78075;
+}
+/* the links on the contact page do not change color with a:link */
+h1, h2, h3 {
+    color: #ffd8cc;
+}
+nav {
+    background-color: #ffd8cc;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #7d5a50;
+}
+nav a:hover {
+    background-color: #ff7878;
+}
+nav a:visited {
+    color: #7d5a50;
+}
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.center {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-left: inherit;
+}
+.evenrow {
+    background-color: white;
+    color:  black;
+}
+.quote {
+    float:right;
+}
+.address {float: left; margin-right: 100px;}
+.clear {clear: both;}
+
+.flex{display: flex;}
+.form {flex: 1; order: 1;}
+.map {flex: 1; order: 2}
+.info, .flex {margin: 30px; padding: 20px; background-color: #292827; border-radius: 1em;}
+
+/* This is all for the skills page */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+.intro {
+    text-align: left;
+    margin-right: 25%;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+.white {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.mainskills {
+    display: flex;
+    flex-basis: 75%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.otherskills {
+    flex-basis: 25%;
+}
+
+aside {
+    margin: 30px; padding: 20px; color: #ffffff; background-color: #000000; border-radius: 1em;
+}
+
+.allskills {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
