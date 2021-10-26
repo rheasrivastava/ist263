@@ -78,7 +78,7 @@ ol {
     display: flex;
     flex-basis: 75%;
     justify-content: space-around;
-    margin-top: 30px;
+    align-items: center;
 }
 
 .otherskills {
@@ -91,7 +91,7 @@ aside {
 
 .allskills {
     display: flex;
-    margin: 20px;
-    padding: 10px;
+    margin: 10px;
+    padding: 20px;
 }
 
