@@ -28,12 +28,10 @@ nav a:visited {
     color: #7d5a50;
 }
 .banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    max-width: 100%;
+    
 }
-.center {
+/* .center {
     text-align: center;
 }
 
@@ -42,14 +40,17 @@ ol {
     list-style-position: inside;
     padding-left: inherit;
 }
-
+*/
 .quote {
     float:right;
 }
 .address {float: left; margin-right: 100px;}
 .clear {clear: both;}
 
-.flex{display: flex;}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
 .form {flex: 1; order: 1;}
 .map {flex: 1; order: 2}
 .info, .flex {margin: 30px; padding: 20px; background-color: #292827; border-radius: 1em;}
