@@ -28,7 +28,8 @@ nav a:visited {
     color: #7d5a50;
 }
 .banner {
-    max-width: 100%;
+    width: 100%;
+    /* should i use width or max width? */
     
 }
 /* .center {
