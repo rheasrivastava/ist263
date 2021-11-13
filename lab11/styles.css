@@ -1,0 +1,119 @@
+body {
+    color: #ffffff; 
+    background-color: #000000;
+}
+a:link {
+    color: #ff7878
+}
+a:visited {
+    color: #a78075;
+}
+/* the links on the contact page do not change color with a:link */
+h1, h2, h3 {
+    color: #ffd8cc;
+}
+nav {
+    background-color: #ffd8cc;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #7d5a50;
+}
+nav a:hover {
+    background-color: #ff7878;
+}
+nav a:visited {
+    color: #7d5a50;
+}
+.banner {
+    width: 100%;
+    /* should i use width or max width? */
+    
+}
+/* .center {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-left: inherit;
+}
+*/
+.quote {
+    float:right;
+}
+.address {float: left; margin-right: 100px;}
+.clear {clear: both;}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form {flex: 1; order: 1;}
+.map {flex: 1; order: 2}
+.info, .flex {margin: 30px; padding: 20px; background-color: #292827; border-radius: 1em;}
+
+/* This is all for the skills page */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+.intro {
+    text-align: left;
+    margin-right: 25%;
+    padding-left: 20px; 
+}
+.white {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.mainskills {
+    display: flex;
+    flex-basis: 75%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.otherskills {
+    flex-basis: 25%;
+}
+
+aside {
+    margin: 30px; padding: 20px; color: #ffffff; background-color: #000000; border-radius: 1em;
+}
+
+.allskills {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* for devices */
+@media only screen and (max-width: 1000px) {
+    nav a {
+        display: block;
+        width: 100%;
+        margin: 0.5em;
+    }
+    nav span {
+        display: none;
+    }
+}
+
+#skip { 
+    position: absolute; /* this positions the element to its parent */
+    left: -999px;
+    background-color: #ffffff;
+} 
+#skip:focus {
+    left: 10px; /* this moves the skip to content back on screen when it's tabbed to */
+}
+
+#skip:hover {
+    background-color: #ff7878;
+}
