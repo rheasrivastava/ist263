@@ -117,3 +117,7 @@ aside {
 #skip:hover {
     background-color: #ff7878;
 }
+
+.links a {
+    color: #ffd8cc;
+}
