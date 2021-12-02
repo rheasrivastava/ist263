@@ -105,3 +105,48 @@ nav a:visited {
 .restaurants .item a:link {
     color: #5296a5;
 }
+
+.contacttitle {
+    text-align: center;
+    font-size: 3em;
+    color: 	#a57548;
+}
+
+.contactbody {
+    background-color: #fcd7ad;
+}
+
+.flex {
+    display: flex
+}
+
+.flex1 {
+    flex: 1;
+    margin: 30px;
+    padding: 20px;
+}
+.flex2 {
+    flex: 1;
+    margin: 50px;
+    padding: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin: 5px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 1em;
+}
+
+form textarea {
+    padding: 10px;
+    margin: 5px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 1em;
+}
+
+.submit {
+    color:#5296a5;
+}
