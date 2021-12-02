@@ -3,11 +3,14 @@ nav {
     justify-content: center;
     padding: 10px;
     background-color: #000000;
-    color: #ffffff;
+    color:#ffebcd
 }
 
-nav:visited {
-    color: blanchedalmond
+nav a:link {
+    color:#d2b48c
+}
+nav a:visited {
+    color: #82ddf0;
 }
 .intro {
     display: flex;
@@ -26,7 +29,7 @@ nav:visited {
 .index p {
     text-align: center;
     width: 60%;
-    background-color: #ffffff;
+    background-color: #ffebcdb9;
     padding: 10px;
     margin: 10px;
     border-radius: 1em;
@@ -40,10 +43,20 @@ nav:visited {
 
 .mainbuttons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 20px;
 }
 .mainbuttons a {
     background-color: #ffebcd;
-    padding: 10px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.mainbuttons a:link {
+    color: #000000;
+}
+.mainbuttons a:visited {
+    color: #5296a5;
 }
