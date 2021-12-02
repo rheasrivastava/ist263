@@ -6,6 +6,11 @@ nav {
     color:#ffebcd
 }
 
+nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 nav a:link {
     color:#d2b48c
 }
@@ -17,6 +22,7 @@ nav a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .index {
     background-image: url("images/bg.jpg");
@@ -28,9 +34,10 @@ nav a:visited {
 
 .index p {
     text-align: center;
+    line-height: 1.3em;
     width: 60%;
     background-color: #ffebcdb9;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     border-radius: 1em;
 }
@@ -74,6 +81,7 @@ nav a:visited {
 .maintitle {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 3em;
     color: 	#a57548;
 }
@@ -149,4 +157,8 @@ form textarea {
 
 .submit {
     color:#5296a5;
+}
+
+.mainpages, .contactbody {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
