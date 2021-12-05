@@ -1,9 +1,25 @@
-nav {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: #000000;
-    color:#ffebcd
+@media only screen and (min-width: 800px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: #000000;
+    }   
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        background-color: #000000;
+        padding: 10px;
+    }
+    nav a {
+        display: block;
+        width: 100%;
+        margin: 0.5em;
+    }
+    nav span {
+        display: none;
+    }
 }
 
 nav a {
@@ -17,6 +33,10 @@ nav a:link {
 nav a:visited {
     color: #82ddf0;
 }
+nav a:hover {
+    color: #faaf3e;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -162,3 +182,4 @@ form textarea {
 .mainpages, .contactbody {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
