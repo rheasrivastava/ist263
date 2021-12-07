@@ -71,8 +71,10 @@ nav a:hover {
 .title {
     display: flex;
     justify-content: center;
-    font-size: 2em;
-    color: #ffebcd
+    font-size: 2.5em;
+    color: #ffebcd;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    font-family: 'Bungee Shade', cursive;
 }
 
 .mainbuttons {
@@ -86,6 +88,7 @@ nav a:hover {
     margin: 30px;
     border-radius: 1em;
     font-weight: bold;
+    font-family: 'Bungee', cursive;
 }
 
 .mainbuttons a:link {
@@ -105,6 +108,7 @@ nav a:hover {
     text-align: center;
     font-size: 3em;
     color: 	#a57548;
+    font-family: 'Bungee Shade', cursive;
 }
 
 .description {
@@ -126,6 +130,10 @@ nav a:hover {
     text-align: center;
 } 
 
+.restaurants .name {
+    font-family: 'Bungee', cursive;
+}
+
 .restaurants .item a:visited {
     color: #a57548;
 }
@@ -138,6 +146,7 @@ nav a:hover {
     text-align: center;
     font-size: 3em;
     color: 	#a57548;
+    font-family: 'Bungee Shade', cursive;
 }
 
 .contactbody {
@@ -204,4 +213,30 @@ img {
     height: 200px; /* height of container */
     object-fit: cover;
     border: 1px solid black;
+}
+
+#modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 73px;
+    padding: 20px;
+    margin-top: -120px;
+    margin-left: -120px;
+    color: #ffffff;
+    background-color: #5296a5;
+    text-align: center;
+    box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.6);
+    display: none;
+}
+#closemodal {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.submit {
+    font-family: 'Bungee', cursive;
 }
