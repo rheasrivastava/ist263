@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:link {
-    color:#d2b48c
+    color:#82ddf0
 }
 nav a:visited {
     color: #82ddf0;
@@ -97,6 +97,9 @@ nav a:hover {
 .mainbuttons a:visited {
     color: #5296a5;
 }
+.mainbuttons a:hover {
+    color: #faaf3e; 
+}
 
 .mainpages {
     background-color: #fcd7ad;
@@ -107,7 +110,7 @@ nav a:hover {
     justify-content: center;
     text-align: center;
     font-size: 3em;
-    color: 	#a57548;
+    color: 	#88613c;
     font-family: 'Bungee Shade', cursive;
 }
 
@@ -135,17 +138,21 @@ nav a:hover {
 }
 
 .restaurants .item a:visited {
-    color: #a57548;
+    color: #6e4e30;
 }
 
 .restaurants .item a:link {
-    color: #5296a5;
+    color: #215763;
+}
+
+.restaurants .item a:hover {
+    background-color: #faaf3e;
 }
 
 .contacttitle {
     text-align: center;
     font-size: 3em;
-    color: 	#a57548;
+    color: 	#88613c;
     font-family: 'Bungee Shade', cursive;
 }
 
@@ -239,4 +246,17 @@ img {
 
 .submit {
     font-family: 'Bungee', cursive;
+    cursor: pointer;
+}
+.submit:hover {
+    color: #faaf3e;
+}
+
+#skip { 
+    position: absolute; 
+    left: -999px;
+    background-color: #000000;
+} 
+#skip:focus {
+    left: 10px; 
 }
