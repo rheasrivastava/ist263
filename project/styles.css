@@ -77,10 +77,20 @@ nav a:hover {
     font-family: 'Bungee Shade', cursive;
 }
 
+@media only screen and (min-width: 1000px) {
 .mainbuttons {
     display: flex;
     justify-content: center;
     margin: 20px;
+}
+}
+@media only screen and (max-width: 1000px) {
+    .mainbuttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px; }
 }
 .mainbuttons a {
     background-color: #ffebcd;
@@ -89,6 +99,7 @@ nav a:hover {
     border-radius: 1em;
     font-weight: bold;
     font-family: 'Bungee', cursive;
+    font-size: 1.3em;
 }
 
 .mainbuttons a:link {
@@ -281,3 +292,14 @@ img {
 .return a:hover {
     color: #82ddf0;
 }
+
+.index {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    animation: fadebackground 4s infinite;
+  }
+
+@keyframes fadebackground {
+    from {background-color: #000000;}
+    to {background-image: url("images/bg.jpg");}
+  }
