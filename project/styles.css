@@ -103,10 +103,10 @@ nav a:hover {
 }
 
 .mainbuttons a:link {
-    color: #619fad;
+    color: #73e3fc;
 }
 .mainbuttons a:visited {
-    color: #619fad;
+    color: #73e3fc;
 }
 .mainbuttons a:hover {
     color: #faaf3e; 
@@ -219,7 +219,7 @@ form textarea {
 }
 
 .submit {
-    color:#619fad;
+    color:#73e3fc;
 }
 
 .mainpages, .contactbody {
