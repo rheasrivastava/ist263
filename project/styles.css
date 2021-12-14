@@ -103,10 +103,10 @@ nav a:hover {
 }
 
 .mainbuttons a:link {
-    color: #5296a5;
+    color: #619fad;
 }
 .mainbuttons a:visited {
-    color: #5296a5;
+    color: #619fad;
 }
 .mainbuttons a:hover {
     color: #faaf3e; 
@@ -219,7 +219,7 @@ form textarea {
 }
 
 .submit {
-    color:#5296a5;
+    color:#619fad;
 }
 
 .mainpages, .contactbody {
@@ -293,6 +293,7 @@ img {
     color: #82ddf0;
 }
 
+/* something new below */
 .index {
     background-image: url("images/bg.jpg");
     background-size: cover;
